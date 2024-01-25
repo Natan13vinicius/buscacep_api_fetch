@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: 1px solid #32ff7e;
+  background-color: #4b4b4b;
+}
+header h1 {
+  color: #32ff7e;
+}
+header .collapse button {
+  color: #32ff7e;
+}
+header .collapse a {
+  color: #fff;
+}
+
+body {
+  background-color: #fff;
+  height: 100vh;
+  border-left: 5px solid #32ff7e;
+}
+body section {
+  border-left: 3px solid #32ff7e;
+}
+body section button, body section input {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 389px) {
+  button, input {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

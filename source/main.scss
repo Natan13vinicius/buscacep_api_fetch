@@ -1,0 +1,46 @@
+// variaveis
+@use "../config/variaveis.scss";
+// reset
+@use "../config/reset.scss";
+
+header{
+    h1{
+        color: variaveis.$corSecundaria;
+    }
+    border-bottom: 1px solid  variaveis.$corSecundaria;
+    background-color: #4b4b4b;
+
+    .collapse{
+        button{
+            color: variaveis.$corSecundaria; 
+        }
+        a{
+            color: variaveis.$corDefundo;
+        }
+    }
+
+}
+
+
+body{
+    background-color: variaveis.$corDefundo;
+    height: 100vh;
+    border-left: 5px solid variaveis.$corSecundaria;
+
+    section{
+        border-left: 3px solid variaveis.$corSecundaria;
+
+        button,input{
+            margin-left: 5px;
+            
+        }
+    }
+
+    
+}
+
+@media screen and (max-width:389px){
+    button,input{
+        margin-top: 10px;
+    }
+}
